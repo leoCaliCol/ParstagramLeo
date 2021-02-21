@@ -10,6 +10,12 @@
     android:orientation="vertical"
     tools:context=".ui.login.LoginActivity">
 
+    <ImageView
+        android:id="@+id/instaImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:srcCompat="@drawable/nux_dayone_landing_logo" />
+
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
@@ -60,32 +66,13 @@
         android:text="Login"
 
          />
-  <!--  android:layout_gravity="start"
-    android:layout_marginStart="48dp"
-    android:layout_marginTop="16dp"
-    android:layout_marginEnd="48dp"
-    android:layout_marginBottom="64dp"
-    android:enabled="false"
-    android:text="@string/action_sign_in"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/password"
-    app:layout_constraintVertical_bias="0.2"-->
 
-    <!--<ProgressBar
-        android:id="@+id/loading"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="64dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/password"
-        app:layout_constraintStart_toStartOf="@+id/password"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />-->
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:text="Sign Up" />
+
 </LinearLayout>
