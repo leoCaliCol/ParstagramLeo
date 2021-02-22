@@ -42,11 +42,5 @@
         android:layout_height="wrap_content"
         android:text="Log Out" />
 
-    <TextView
-        android:id="@+id/theUserName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
 
 </LinearLayout>
