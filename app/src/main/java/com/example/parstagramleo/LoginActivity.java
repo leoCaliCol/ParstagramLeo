@@ -77,9 +77,6 @@ public class LoginActivity extends AppCompatActivity {
             public void done(ParseException e) {
                 if (e != null) {
                     Toast.makeText(LoginActivity.this, "Issue with login!", Toast.LENGTH_SHORT).show();
-                } else {
-                    ParseUser.logOut();
-                    Toast.makeText(LoginActivity.this, "You signed up, congrats!", Toast.LENGTH_LONG).show();
                 }
                 // TODO: navigate to the main activity if the user has signed in properly
                 goMainActivity();
